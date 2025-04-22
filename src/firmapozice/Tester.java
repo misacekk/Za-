@@ -12,6 +12,10 @@ public class Tester extends Zamestnanec{
     }
     @Override
     public void vypisInfo(){
+        System.out.println("Jmeno: " + this.jmeno);
+        System.out.println("Prijmeni: " + this.prijmeni);
+        System.out.println("Pozice: " + this.pozice);
+        System.out.println("Plat: " + this.plat);
         System.out.println("PocetChyb: " + this.pocetChyb);
     }
 }
